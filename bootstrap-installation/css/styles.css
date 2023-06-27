@@ -1,0 +1,143 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: "Montserrat"
+}
+#title{
+  background-color:#ff4c64;
+  color : #fff;
+
+
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size:3rem;
+  line-height: 1.5;
+
+}
+h2{
+  font-family: 'Patrick Hand', cursive;
+  font-size: 3rem;
+
+}
+h3{
+  font-family: 'Patrick Hand', cursive;
+}
+p{
+  color: #8f8f8f;
+  font-family: 'Comfortaa', cursive;
+}
+.container-fluid{
+  padding: 3% 18% 7%;
+}
+.download-button{
+  margin: 5% 3% 5% 0; /*t r l b*/
+}
+.iphone{
+  width: 300px;
+  transform: rotate(25deg);
+  right: 24%;
+  position:absolute;
+
+
+}
+.nav-item{
+  padding: 0  4.5%;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family:"Montserrat" ;
+}
+.navbar{
+  padding-bottom: 3rem;
+}
+.navbar-brand{
+     font-family: "ubuntu";
+     font-size: 3rem;
+     font-weight:bold;
+}
+/*features-section*/
+#features{
+  background-color:  #FEF7DC;
+  font-size: 1.5rem;
+  font-family: 'Karla', sans-serif;
+  padding: 7% 15% ;
+  position: relative;
+  z-index: 1;
+
+}
+.feature-box{
+   text-align: center;
+   padding: 5% 5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+   color: #ff4c68;
+}
+/*testimonials*/
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff;
+
+
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-image{
+  border-radius: 100rem;
+  margin: 2rem;
+  width: 10%;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-1{
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+#pricing{
+  padding: 100px;
+  }
+.card-body{
+  text-align: center;
+}
+#cta{
+   background-color: #ff4c68;
+   text-align: center;
+    padding: 4% 7% 2%;
+
+
+
+}
+.ctaa{
+  color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+  padding-bottom: 30px;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+#footer{
+ text-align: center;
+  padding: 5% 7%
+}
+.social-icon{
+ margin: 20px;
+}
+
+.footer-p{
+  padding-top: 2%;
+}
